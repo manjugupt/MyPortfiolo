@@ -1,0 +1,46 @@
+
+ *{
+    background-color: black;
+    /* background-color: rgb(233, 224, 224); */
+    color: wheat;
+    border-color: aliceblue;
+   
+}
+#services{
+    padding: 100px 50px;
+}
+.services-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 3px 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.services-box:hover{
+    background: #887a78;
+    color: white;
+    transition: 0.4s;
+   
+}
+.services-box img{
+    width: 60%;
+}
+
+@keyframes img{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+} 

@@ -1,0 +1,14 @@
+*{
+   background-color: black;
+   color: wheat;
+}
+.button3{
+background-color: #83c787; /* Green */
+border: none;
+color: rgb(19, 17, 14);
+padding: 10px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 10px;
+}
